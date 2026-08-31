@@ -8,7 +8,6 @@ namespace GoOffWithABang.Cutscenes;
 public class toby : CustomDeathCutscene
 {
     public override bool HideNormalKillCutscene => true;
-
     public override IEnumerator Trigger()
     {
         Logger.GlobalInstance.Error("toby MOTHERFUCKING FOX");
